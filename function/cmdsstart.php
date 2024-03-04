@@ -4,7 +4,7 @@
 $users = file_get_contents('Database/free.txt');
 $freeusers = explode("\n", $users);
 
-$videoURLStart = "https://t.me/Mr_Mrs_Krishna/154";
+$videoURLStart = "https://t.me/Itsz_Manish/2";
 
 
 if (preg_match('/^(\/start|\.start|!start)/', $text)) {
@@ -21,7 +21,7 @@ if (preg_match('/^(\/start|\.start|!start)/', $text)) {
 //=========START END========//
 if (preg_match('/^(\/cmds|\.cmds|!cmds)/', $text)) {
   
-    $videoUrl = "https://t.me/Mr_Mrs_Krishna/154"; 
+    $videoUrl = "https://t.me/Itsz_Manish/2"; 
 
     $keyboard2 = json_encode([
         'inline_keyboard' => [
